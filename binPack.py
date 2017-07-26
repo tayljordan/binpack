@@ -6,6 +6,12 @@ import math
 import string
 from pprint import pprint
 
+# /*******************************************************
+#  * Copyright (C) 2017 Jordan L. Taylor tayljordan@gmail.com
+#  * 
+#  * binPack can not be copied and/or distributed without the express
+#  * permission of Jordan L. Taylor
+#  *******************************************************/
 
 # Define the binPack class
 class binPack(object):
