@@ -3,7 +3,8 @@
 binPack 
 
 	Combinatorially optimizes volumes into containers, from most optimal to least optimal.
-	Can be used as a base for rectifying adjacency issues in technical applications, such as chemical tanker stowage. 
+	Can be used as a base for rectifying adjacency issues in technical applications, 
+	such as chemical tanker stowage. 
 
 Usage
 
@@ -14,9 +15,15 @@ Usage
 
 	# Instatiate object with default params
 	binpack = binPack.binPack()
-
-	# Change the default params. Any can be changed in this way.
+	
+	# Number of outcomes requested
 	binpack.numberOfResultsRequested = 2
+
+	# Time allowed to find outcome, default = 10 seconds
+        binpack.maximumTimeAllowedInSeconds = 10
+
+	# Whether optimizes based on maximum tankage or maximum volume, default is False
+	binpack.tankTrueOrVolumeFalse = False
 
 	# Calculate a pack with tVV, pVV
 	result = binpack.getPack(tanksVolValue, prodsVolValue)
