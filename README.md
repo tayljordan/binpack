@@ -1,6 +1,11 @@
 # binPack
 
-Enter your project goal and description here, as well as a short blip on how to use it if others wish
+binPack 
+
+	Combinatorially optimizes volumes into containers, from most optimal to least optimal.
+	Can be used as a base for rectifying adjacency issues in technical applications, such as chemical tanker stowage. 
+
+Usage
 
 	EXAMPLE:
 
