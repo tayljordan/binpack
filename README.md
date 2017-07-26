@@ -19,4 +19,4 @@ Enter your project goal and description here, as well as a short blip on how to 
 
 Enter script dependencies
 
-Python 3.4, all dependencies included in standard library
+	Python 3.4, all dependencies included in standard library
