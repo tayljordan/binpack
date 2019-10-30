@@ -11,9 +11,9 @@ Usage
 	EXAMPLE:
 
 	tanksVolValue   = [626, 639, 1209]
-	prodsVolValue = [10,2000,30, 500, 1000, 2000]
+	prodsVolValue   = [10, 2000, 30, 500, 1000, 2000]
 
-	# Instatiate object with default params
+	# Instantiate object with default parameters
 	binpack = binPack.binPack()
 	
 	# Number of outcomes requested
