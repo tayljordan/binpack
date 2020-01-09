@@ -1,7 +1,5 @@
 Summary
 
-A brute-force bin packing API.
-
 Used for placing different size liquids into different sized containers. This question may seem simplistic however it is a classically difficult problem to solve.
 
 In:
@@ -15,9 +13,6 @@ Out:
     Possible stowage combinations
 
 Calling the API
-
-There is a package written in python that can call the API here.
-Simplified Example
 
 Arguments:
 
@@ -53,7 +48,7 @@ Breakdown:
 
 [[7002], [7004, 7001]] = The stow. i.e. the first product 20 will fit into the second tank and the second product will fit into the first and last tank.
 
-So - to recap - if given,
+If given,
 
 7001 = 30
 
@@ -64,6 +59,7 @@ So - to recap - if given,
 7004 = 5
 
 then the first volume (20) will be stowed in 7002 and the second volume (25) will be stowed in 7004 and 7001. 7003 is an available tank.
+
 Limitations
 
-For now the API is limited 20 tanks until the tuning arguments can be definitively implemented. Outcomes are not exhaustive. Additional work will be necessary to unpack additional outcomes and expand the allowable number of tanks and products.
+API is limited 20 tanks until the tuning arguments can be definitively implemented. Outcomes are not exhaustive. Additional work will be necessary to unpack additional outcomes and expand the allowable number of tanks and products.
